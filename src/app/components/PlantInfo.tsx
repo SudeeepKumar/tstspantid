@@ -1,5 +1,5 @@
 import React from "react";
-
+require("dotenv").config();
 interface PlantInfoProps {
   info: string;
 }

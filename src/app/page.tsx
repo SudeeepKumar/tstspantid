@@ -1,9 +1,11 @@
 "use client";
-
 import { useState } from "react";
 import ImageUpload from "./components/ImageUpload";
 import PlantInfo from "./components/PlantInfo";
 import HowItWorks from "./components/HowItWorks";
+
+// You do not need to call dotenv.config() in Next.js
+// require('dotenv').config() // This line should be removed
 
 export default function Home() {
   const [plantInfo, setPlantInfo] = useState<string | null>(null);
